@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
+    <main>
       <h1>Etch-a-Sketch</h1>
       <div class="frame">
         <div id="grid-container"></div>
@@ -15,10 +15,11 @@
           <h2>Choose size</h2>
           <input id="size-container" />
           <p id="alert"></p>
-          <button id="draw" onclick="start(size)">Start</button>
+          <button id="draw">Start</button>
+          <button id="resetButton" class="reset-button">Reset</button>
         </div>
       </div>
-    </section>
+    </main>
     <script src="my-script.js"></script>
   </body>
 </html>
